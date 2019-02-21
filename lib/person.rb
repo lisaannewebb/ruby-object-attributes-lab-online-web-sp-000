@@ -8,12 +8,12 @@ Class Person
    @name
   end
 
-
-
-
-
-
-
-
+  def job=(career)
+    @job=career
+  end
+  
+  def job
+    @job
+  end
 
 end
