@@ -12,8 +12,8 @@ class Dog #defines class
 #reads the name; exposes data from inside of the object to the outside world. This is an "instance variable". 
 #call instance variable and passes string as argument to give us dog's name
 
-  def breed=(dog_type)
-    @breed=dog_type
+  def breed=(doggy_type)
+    @breed=doggy_type
   end
 
   def breed
